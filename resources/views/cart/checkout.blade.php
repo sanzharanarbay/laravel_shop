@@ -137,6 +137,7 @@
                 </span>
                                     <input type="radio" name="payment_type" value="paypal"> PayPal
                                     <div class="row" style="height: 34px; margin-left: 15px;">
+                                        @include('front.paypal')&nbsp;&nbsp;
                                         <input type="submit" value="Continue" class="btn btn-primary btn-sm">
                                     </div>
                                 </div>
